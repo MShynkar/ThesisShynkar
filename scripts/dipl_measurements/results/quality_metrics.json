@@ -1,0 +1,264 @@
+{
+  "top_k": 5,
+  "threshold": 0.0,
+  "n_queries": 15,
+  "mean_precision_at_5": 0.827,
+  "mrr": 0.9,
+  "per_query": [
+    {
+      "query": "What is the company's data retention policy?",
+      "role": "admin",
+      "note": "EN, exact-topic single target",
+      "relevant_in_corpus": 1,
+      "found_in_top5": 4,
+      "precision_at_5": 0.8,
+      "rank_first_relevant": 2,
+      "rr": 0.5,
+      "top5_titles": [
+        "Logging, Monitoring and Observability Standards",
+        "Data Retention and Deletion Policy",
+        "Data Retention and Deletion Policy",
+        "Data Retention and Deletion Policy",
+        "Data Retention and Deletion Policy"
+      ]
+    },
+    {
+      "query": "How much paid vacation do employees get?",
+      "role": "user",
+      "note": "EN, topic split across dedicated policy + handbook",
+      "relevant_in_corpus": 2,
+      "found_in_top5": 4,
+      "precision_at_5": 0.8,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Paid Time Off and Vacation Policy",
+        "Company Handbook",
+        "Paid Time Off and Vacation Policy",
+        "Paid Time Off and Vacation Policy",
+        "Expense Reimbursement Policy"
+      ]
+    },
+    {
+      "query": "What is the code review process for engineers?",
+      "role": "user",
+      "note": "EN, two engineering docs cover code review",
+      "relevant_in_corpus": 2,
+      "found_in_top5": 5,
+      "precision_at_5": 1.0,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Engineering Best Practices and Code Review Standards",
+        "Engineering Best Practices and Code Review Standards",
+        "Engineering Best Practices and Code Review Standards",
+        "Engineering Best Practices and Code Review Standards",
+        "Engineering Best Practices and Code Review Standards"
+      ]
+    },
+    {
+      "query": "How are production incidents handled on call?",
+      "role": "user",
+      "note": "EN, single clear target",
+      "relevant_in_corpus": 1,
+      "found_in_top5": 5,
+      "precision_at_5": 1.0,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Incident Response Runbook",
+        "Incident Response Runbook",
+        "Incident Response Runbook",
+        "Incident Response Runbook",
+        "Incident Response Runbook"
+      ]
+    },
+    {
+      "query": "How often are API keys and secrets rotated?",
+      "role": "user",
+      "note": "EN, rotation mentioned in security doc and best-practices doc",
+      "relevant_in_corpus": 2,
+      "found_in_top5": 5,
+      "precision_at_5": 1.0,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Security Engineering Standards",
+        "Security Engineering Standards",
+        "Security Engineering Standards",
+        "Security Engineering Standards",
+        "Security Engineering Standards"
+      ]
+    },
+    {
+      "query": "What health insurance and benefits are offered to employees?",
+      "role": "guest",
+      "note": "EN, public single target",
+      "relevant_in_corpus": 1,
+      "found_in_top5": 5,
+      "precision_at_5": 1.0,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Employee Benefits and Health Insurance Overview",
+        "Employee Benefits and Health Insurance Overview",
+        "Employee Benefits and Health Insurance Overview",
+        "Employee Benefits and Health Insurance Overview",
+        "Employee Benefits and Health Insurance Overview"
+      ]
+    },
+    {
+      "query": "What are the executive compensation packages and equity grants?",
+      "role": "admin",
+      "note": "EN, restricted; tests that high-privilege retrieval works",
+      "relevant_in_corpus": 2,
+      "found_in_top5": 5,
+      "precision_at_5": 1.0,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Executive Compensation and Equity Grants",
+        "Executive Compensation Review",
+        "Executive Compensation and Equity Grants",
+        "Executive Compensation and Equity Grants",
+        "Executive Compensation and Equity Grants"
+      ]
+    },
+    {
+      "query": "Details of the SmallCo acquisition under Project Atlas",
+      "role": "admin",
+      "note": "EN, rare codename 'Project Atlas' + entity 'SmallCo'",
+      "relevant_in_corpus": 2,
+      "found_in_top5": 4,
+      "precision_at_5": 0.8,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "M&A Due Diligence — Project Atlas",
+        "M&A Due Diligence — Project Atlas",
+        "M&A Due Diligence — Project Atlas",
+        "Confidential Board Meeting Minutes",
+        "M&A Due Diligence — Project Atlas"
+      ]
+    },
+    {
+      "query": "What is the quarterly sales revenue target?",
+      "role": "manager",
+      "note": "EN, confidential; revenue target spread over several finance docs",
+      "relevant_in_corpus": 3,
+      "found_in_top5": 5,
+      "precision_at_5": 1.0,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Sales Pipeline and Revenue Targets",
+        "Sales Pipeline and Revenue Targets",
+        "Sales Pipeline and Revenue Targets",
+        "Sales Pipeline and Revenue Targets",
+        "Sales Pipeline and Revenue Targets"
+      ]
+    },
+    {
+      "query": "How do I submit an expense reimbursement?",
+      "role": "user",
+      "note": "EN, single target",
+      "relevant_in_corpus": 1,
+      "found_in_top5": 5,
+      "precision_at_5": 1.0,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Expense Reimbursement Policy",
+        "Expense Reimbursement Policy",
+        "Expense Reimbursement Policy",
+        "Expense Reimbursement Policy",
+        "Expense Reimbursement Policy"
+      ]
+    },
+    {
+      "query": "What are the rules against workplace harassment and discrimination?",
+      "role": "guest",
+      "note": "EN, synonym/paraphrase of 'code of conduct'",
+      "relevant_in_corpus": 2,
+      "found_in_top5": 4,
+      "precision_at_5": 0.8,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Code of Conduct and Anti-Harassment Policy",
+        "Code of Conduct and Anti-Harassment Policy",
+        "Code of Conduct and Anti-Harassment Policy",
+        "Workplace Health and Safety Guidelines",
+        "Code of Conduct and Anti-Harassment Policy"
+      ]
+    },
+    {
+      "query": "Яка політика відпусток у компанії?",
+      "role": "user",
+      "note": "UA, cross-lingual — expected to under-perform (nomic-embed-text is EN-centric)",
+      "relevant_in_corpus": 2,
+      "found_in_top5": 0,
+      "precision_at_5": 0.0,
+      "rank_first_relevant": null,
+      "rr": 0.0,
+      "top5_titles": [
+        "Demo Test Document",
+        "API Design Guidelines",
+        "Incident Response Runbook",
+        "Testing and Quality Assurance Standards",
+        "API Design Guidelines"
+      ]
+    },
+    {
+      "query": "How are database migrations managed safely?",
+      "role": "user",
+      "note": "EN, single target",
+      "relevant_in_corpus": 1,
+      "found_in_top5": 5,
+      "precision_at_5": 1.0,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Database Schema and Migration Guide",
+        "Database Schema and Migration Guide",
+        "Database Schema and Migration Guide",
+        "Database Schema and Migration Guide",
+        "Database Schema and Migration Guide"
+      ]
+    },
+    {
+      "query": "What is the company's mission and core values?",
+      "role": "guest",
+      "note": "EN, abstract query against a doc that states the mission briefly",
+      "relevant_in_corpus": 1,
+      "found_in_top5": 1,
+      "precision_at_5": 0.2,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Company Handbook",
+        "Diversity, Equity and Inclusion Statement",
+        "Workplace Health and Safety Guidelines",
+        "Diversity, Equity and Inclusion Statement",
+        "Workplace Health and Safety Guidelines"
+      ]
+    },
+    {
+      "query": "How is customer personal data protected under GDPR?",
+      "role": "guest",
+      "note": "EN, privacy/compliance spanning two docs",
+      "relevant_in_corpus": 2,
+      "found_in_top5": 5,
+      "precision_at_5": 1.0,
+      "rank_first_relevant": 1,
+      "rr": 1.0,
+      "top5_titles": [
+        "Customer Privacy Policy",
+        "Customer Privacy Policy",
+        "Customer Privacy Policy",
+        "Customer Privacy Policy",
+        "Customer Privacy Policy"
+      ]
+    }
+  ]
+}

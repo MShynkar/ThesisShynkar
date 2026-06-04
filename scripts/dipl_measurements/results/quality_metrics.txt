@@ -1,0 +1,21 @@
+
+ #   P@5 rank    RR  query
+ 1   0.8    2   0.5  What is the company's data retention policy?
+ 2   0.8    1   1.0  How much paid vacation do employees get?
+ 3   1.0    1   1.0  What is the code review process for engineers?
+ 4   1.0    1   1.0  How are production incidents handled on call?
+ 5   1.0    1   1.0  How often are API keys and secrets rotated?
+ 6   1.0    1   1.0  What health insurance and benefits are offered to 
+ 7   1.0    1   1.0  What are the executive compensation packages and e
+ 8   0.8    1   1.0  Details of the SmallCo acquisition under Project A
+ 9   1.0    1   1.0  What is the quarterly sales revenue target?
+10   1.0    1   1.0  How do I submit an expense reimbursement?
+11   0.8    1   1.0  What are the rules against workplace harassment an
+12   0.0 None   0.0  Яка політика відпусток у компанії?
+13   1.0    1   1.0  How are database migrations managed safely?
+14   0.2    1   1.0  What is the company's mission and core values?
+15   1.0    1   1.0  How is customer personal data protected under GDPR
+
+Mean Precision@5 = 0.827
+MRR             = 0.9
+Saved -> results/quality_metrics.json

@@ -1,0 +1,118 @@
+{
+  "query": "What is the company's data retention policy?",
+  "n": 10,
+  "top_k": 5,
+  "threshold": 0.4,
+  "runs": [
+    {
+      "embed_ms": 641.7,
+      "search_ms": 131.0,
+      "gen_ms": 18311.9,
+      "e2e_ms": 19293.3,
+      "n_sources": 5,
+      "answer_chars": 575
+    },
+    {
+      "embed_ms": 720.3,
+      "search_ms": 133.1,
+      "gen_ms": 25867.5,
+      "e2e_ms": 26791.1,
+      "n_sources": 5,
+      "answer_chars": 530
+    },
+    {
+      "embed_ms": 680.4,
+      "search_ms": 130.2,
+      "gen_ms": 15726.2,
+      "e2e_ms": 16601.0,
+      "n_sources": 5,
+      "answer_chars": 448
+    },
+    {
+      "embed_ms": 658.6,
+      "search_ms": 129.7,
+      "gen_ms": 13292.8,
+      "e2e_ms": 14146.3,
+      "n_sources": 5,
+      "answer_chars": 510
+    },
+    {
+      "embed_ms": 2213.0,
+      "search_ms": 131.7,
+      "gen_ms": 20656.0,
+      "e2e_ms": 23066.0,
+      "n_sources": 5,
+      "answer_chars": 704
+    },
+    {
+      "embed_ms": 662.2,
+      "search_ms": 128.8,
+      "gen_ms": 14892.5,
+      "e2e_ms": 15746.1,
+      "n_sources": 5,
+      "answer_chars": 615
+    },
+    {
+      "embed_ms": 653.4,
+      "search_ms": 130.6,
+      "gen_ms": 22782.1,
+      "e2e_ms": 23630.2,
+      "n_sources": 5,
+      "answer_chars": 589
+    },
+    {
+      "embed_ms": 864.8,
+      "search_ms": 132.6,
+      "gen_ms": 17621.9,
+      "e2e_ms": 21508.4,
+      "n_sources": 5,
+      "answer_chars": 648
+    },
+    {
+      "embed_ms": 701.1,
+      "search_ms": 280.2,
+      "gen_ms": 15175.2,
+      "e2e_ms": 16239.5,
+      "n_sources": 5,
+      "answer_chars": 643
+    },
+    {
+      "embed_ms": 646.6,
+      "search_ms": 137.9,
+      "gen_ms": 16347.4,
+      "e2e_ms": 17193.8,
+      "n_sources": 5,
+      "answer_chars": 602
+    }
+  ],
+  "aggregates": {
+    "Query embedding": {
+      "mean": 844.2,
+      "median": 671.3,
+      "min": 641.7,
+      "max": 2213.0,
+      "stdev": 460.5
+    },
+    "Hybrid retrieval": {
+      "mean": 146.6,
+      "median": 131.3,
+      "min": 128.8,
+      "max": 280.2,
+      "stdev": 44.6
+    },
+    "LLM generation": {
+      "mean": 18067.3,
+      "median": 16984.7,
+      "min": 13292.8,
+      "max": 25867.5,
+      "stdev": 3737.8
+    },
+    "End-to-end": {
+      "mean": 19421.6,
+      "median": 18243.5,
+      "min": 14146.3,
+      "max": 26791.1,
+      "stdev": 3925.0
+    }
+  }
+}

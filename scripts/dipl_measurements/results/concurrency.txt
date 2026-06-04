@@ -1,0 +1,31 @@
+Logged in as admin.
+
+[A] Sequential (10 distinct queries) ...
+  200 client= 52476.0ms server=51935ms src=5  What is the company's data retention pol
+  200 client= 26908.1ms server=26486ms src=5  How much paid vacation do employees get?
+  200 client= 36221.1ms server=35795ms src=5  What is the code review process for engi
+  200 client= 35836.1ms server=35419ms src=5  How are production incidents handled on 
+  200 client= 39349.4ms server=38933ms src=5  How often are API keys and secrets rotat
+  200 client= 31536.3ms server=31117ms src=5  What health insurance and benefits are o
+  200 client= 27434.9ms server=27016ms src=5  How do I submit an expense reimbursement
+  200 client= 26439.8ms server=26021ms src=5  What is the git branching and release pr
+  200 client= 33913.1ms server=33494ms src=5  What are the rules against harassment at
+  200 client= 52495.8ms server=51783ms src=5  How are database migrations managed safe
+  (pausing 5s before concurrent batch)
+
+[B] Concurrent (10 distinct queries, asyncio.gather) ...
+  200 client=320900.6ms server=292457ms src=5  What is the company's data retention pol
+  200 client= 72085.8ms server=70922ms src=5  How much paid vacation do employees get?
+  200 client=165347.5ms server=135867ms src=5  What is the code review process for engi
+  200 client=228265.6ms server=225637ms src=5  How are production incidents handled on 
+  500 client=422039.6ms server=Nonems src=0  How often are API keys and secrets rotat
+  500 client=422030.1ms server=Nonems src=0  What health insurance and benefits are o
+  200 client=422390.6ms server=391886ms src=5  How do I submit an expense reimbursement
+  200 client=132202.8ms server=100925ms src=5  What is the git branching and release pr
+  200 client=134331.4ms server=117069ms src=5  What are the rules against harassment at
+  200 client=362447.7ms server=333476ms src=5  How are database migrations managed safe
+
+=== SUMMARY ===
+Sequential wall-clock:  362.6s  | per-req client mean 36261.1ms server mean 35799.9ms  ok=10/10
+Concurrent wall-clock:  422.4s  | per-req client mean 268204.2ms server mean 208529.9ms  ok=8/10
+Saved -> results/concurrency.json

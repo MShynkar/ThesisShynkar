@@ -1,0 +1,24 @@
+Query: "What is the company's data retention policy?"
+Warmup x2 (discarded) ...
+
+Measured runs x10:
+ #     embed    search     LLM gen         e2e  src  ans_ch
+ 1    641.7    131.0    18311.9    19293.3    5     575
+ 2    720.3    133.1    25867.5    26791.1    5     530
+ 3    680.4    130.2    15726.2    16601.0    5     448
+ 4    658.6    129.7    13292.8    14146.3    5     510
+ 5   2213.0    131.7    20656.0    23066.0    5     704
+ 6    662.2    128.8    14892.5    15746.1    5     615
+ 7    653.4    130.6    22782.1    23630.2    5     589
+ 8    864.8    132.6    17621.9    21508.4    5     648
+ 9    701.1    280.2    15175.2    16239.5    5     643
+10    646.6    137.9    16347.4    17193.8    5     602
+
+Aggregates (ms):
+Stage                   mean    median       min       max     stdev
+Query embedding        844.2     671.3     641.7    2213.0     460.5
+Hybrid retrieval       146.6     131.3     128.8     280.2      44.6
+LLM generation       18067.3   16984.7   13292.8   25867.5    3737.8
+End-to-end           19421.6   18243.5   14146.3   26791.1    3925.0
+
+Saved -> results/latency_sequential.json

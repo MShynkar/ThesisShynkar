@@ -1,0 +1,67 @@
+
+Processing 32 new documents (chunk + embed) ...
+2026-06-01 00:23:09 [info     ] document_processed             chunks=9 document_id=d24cab49-2862-43a7-945a-05b22fe07397
+  [  15.0s] Working Hours and Remote Work Policy
+2026-06-01 00:23:17 [info     ] document_processed             chunks=9 document_id=516c07f8-f9b5-4a89-b839-06a237919ce6
+  [   8.4s] Paid Time Off and Vacation Policy
+2026-06-01 00:23:27 [info     ] document_processed             chunks=10 document_id=2f834181-c2e6-4104-8950-ce7ffb6bc433
+  [   9.1s] Code of Conduct and Anti-Harassment Policy
+2026-06-01 00:23:35 [info     ] document_processed             chunks=9 document_id=925448f9-fddb-48f3-bde5-c75922ab8149
+  [   8.2s] Employee Benefits and Health Insurance Overview
+2026-06-01 00:23:44 [info     ] document_processed             chunks=9 document_id=6fe55f14-03e5-4cc1-b9e8-f15e3195dbd6
+  [   9.4s] Expense Reimbursement Policy
+2026-06-01 00:23:56 [info     ] document_processed             chunks=9 document_id=28005131-ee9d-4cff-a2c4-b0e8bbd276c7
+  [  11.4s] IT Acceptable Use Policy
+2026-06-01 00:24:09 [info     ] document_processed             chunks=9 document_id=e20b7f6c-27d7-478d-a235-7ef2bbdc2146
+  [  13.0s] Customer Privacy Policy
+2026-06-01 00:24:17 [info     ] document_processed             chunks=9 document_id=e287dd47-9549-4713-8f27-45f50cd5ed1c
+  [   8.5s] New Hire Onboarding FAQ
+2026-06-01 00:24:26 [info     ] document_processed             chunks=9 document_id=e63129f0-9509-4b93-92bf-defb35354542
+  [   8.4s] Workplace Health and Safety Guidelines
+2026-06-01 00:24:34 [info     ] document_processed             chunks=9 document_id=5bc4a30c-eeeb-4f68-a85a-c1e13f2369dd
+  [   8.4s] Diversity, Equity and Inclusion Statement
+2026-06-01 00:24:43 [info     ] document_processed             chunks=9 document_id=019c58ec-f147-4ae4-a1ab-1d7b5bc71814
+  [   8.8s] Engineering Best Practices and Code Review Standards
+2026-06-01 00:24:52 [info     ] document_processed             chunks=9 document_id=068cd2b6-4360-465c-b60e-81808131808c
+  [   8.8s] Git Branching and Release Management Process
+2026-06-01 00:25:01 [info     ] document_processed             chunks=10 document_id=df440019-fc93-4c05-9ff0-218242cccf89
+  [   9.5s] Incident Response Runbook
+2026-06-01 00:25:09 [info     ] document_processed             chunks=9 document_id=dc1499c1-06d4-4128-95e8-3cec28dbd4e2
+  [   8.2s] API Design Guidelines
+2026-06-01 00:25:22 [info     ] document_processed             chunks=9 document_id=e897d655-d181-4355-8e09-bb9a69256878
+  [  12.4s] Database Schema and Migration Guide
+2026-06-01 00:25:34 [info     ] document_processed             chunks=9 document_id=c8fc25d5-860b-4aac-bd20-28e74b7610fb
+  [  12.5s] Testing and Quality Assurance Standards
+2026-06-01 00:25:43 [info     ] document_processed             chunks=10 document_id=1201d81a-d3f1-4b69-a2f5-0df6fa18752c
+  [   9.0s] Security Engineering Standards
+2026-06-01 00:25:52 [info     ] document_processed             chunks=9 document_id=84abbdf1-1717-40b1-aed8-41b43a8cf891
+  [   8.3s] Cloud Infrastructure and Deployment Guide
+2026-06-01 00:26:00 [info     ] document_processed             chunks=9 document_id=a549da70-bdef-474e-a2a2-cd51b854210e
+  [   8.5s] Data Retention and Deletion Policy
+2026-06-01 00:26:08 [info     ] document_processed             chunks=9 document_id=464dc3ec-2df9-428b-acaa-8fde6f8c6043
+  [   8.2s] Logging, Monitoring and Observability Standards
+2026-06-01 00:26:17 [info     ] document_processed             chunks=10 document_id=7eb4cd80-a9a6-4448-a041-4950eaf9efa7
+  [   9.2s] Engineering Onboarding Guide
+2026-06-01 00:26:26 [info     ] document_processed             chunks=9 document_id=03be14fc-82af-4f7f-8553-6ae93e8d48c9
+  [   8.4s] Q3 Strategic Plan and OKRs
+2026-06-01 00:26:35 [info     ] document_processed             chunks=9 document_id=6839f5aa-2270-4200-a82e-71cf9978770f
+  [   8.8s] Annual Operating Budget and Financial Forecast
+2026-06-01 00:26:43 [info     ] document_processed             chunks=9 document_id=28311da8-68e2-446b-99e8-13ca62fff7f0
+  [   8.7s] Product Roadmap (Next 12 Months)
+2026-06-01 00:26:53 [info     ] document_processed             chunks=10 document_id=e77fe7b2-126c-4069-b317-92f1eaf8946d
+  [   9.7s] Sales Pipeline and Revenue Targets
+2026-06-01 00:27:01 [info     ] document_processed             chunks=9 document_id=d0ee7e3a-7bf2-48b3-bf69-e1aec9786c05
+  [   8.3s] Competitive Analysis and Market Positioning
+2026-06-01 00:27:10 [info     ] document_processed             chunks=9 document_id=8a3ccbb0-d3bb-4b66-adb9-87a6557c52d1
+  [   8.5s] Customer Churn Analysis and Retention Strategy
+2026-06-01 00:27:18 [info     ] document_processed             chunks=9 document_id=b08dc9b4-0768-448f-bf3d-726eae0cccd3
+  [   8.4s] Vendor Contracts and Procurement Summary
+2026-06-01 00:27:27 [info     ] document_processed             chunks=9 document_id=6d79dc6e-2265-4830-a881-249b4712ffeb
+  [   8.8s] Executive Compensation and Equity Grants
+2026-06-01 00:27:35 [info     ] document_processed             chunks=9 document_id=eb527225-ea2b-4631-bffe-d9d7b0637251
+  [   8.5s] M&A Due Diligence � Project Atlas
+2026-06-01 00:27:44 [info     ] document_processed             chunks=9 document_id=af10e79f-1a1c-4c7f-a6e8-ed09d9fe8ddd
+  [   8.2s] Confidential Board Meeting Minutes
+2026-06-01 00:27:58 [info     ] document_processed             chunks=9 document_id=1d048d2d-b3c4-48f1-9d96-661741d7d76a
+  [  13.9s] Workforce Reduction and Restructuring Plan
+Done in 303.5s

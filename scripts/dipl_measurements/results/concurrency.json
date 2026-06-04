@@ -1,0 +1,204 @@
+{
+  "params": {
+    "top_k": 5,
+    "threshold": 0.4,
+    "hybrid": true,
+    "generate_answer": true
+  },
+  "sequential": {
+    "wall_ms": 362612.0,
+    "requests": [
+      {
+        "query": "What is the company's data retention policy?",
+        "status": 200,
+        "client_ms": 52476.0,
+        "server_ms": 51935,
+        "n_sources": 5,
+        "answer_chars": 547
+      },
+      {
+        "query": "How much paid vacation do employees get?",
+        "status": 200,
+        "client_ms": 26908.1,
+        "server_ms": 26486,
+        "n_sources": 5,
+        "answer_chars": 87
+      },
+      {
+        "query": "What is the code review process for engineers?",
+        "status": 200,
+        "client_ms": 36221.1,
+        "server_ms": 35795,
+        "n_sources": 5,
+        "answer_chars": 415
+      },
+      {
+        "query": "How are production incidents handled on call?",
+        "status": 200,
+        "client_ms": 35836.1,
+        "server_ms": 35419,
+        "n_sources": 5,
+        "answer_chars": 335
+      },
+      {
+        "query": "How often are API keys and secrets rotated?",
+        "status": 200,
+        "client_ms": 39349.4,
+        "server_ms": 38933,
+        "n_sources": 5,
+        "answer_chars": 211
+      },
+      {
+        "query": "What health insurance and benefits are offered?",
+        "status": 200,
+        "client_ms": 31536.3,
+        "server_ms": 31117,
+        "n_sources": 5,
+        "answer_chars": 310
+      },
+      {
+        "query": "How do I submit an expense reimbursement?",
+        "status": 200,
+        "client_ms": 27434.9,
+        "server_ms": 27016,
+        "n_sources": 5,
+        "answer_chars": 152
+      },
+      {
+        "query": "What is the git branching and release process?",
+        "status": 200,
+        "client_ms": 26439.8,
+        "server_ms": 26021,
+        "n_sources": 5,
+        "answer_chars": 203
+      },
+      {
+        "query": "What are the rules against harassment at work?",
+        "status": 200,
+        "client_ms": 33913.1,
+        "server_ms": 33494,
+        "n_sources": 5,
+        "answer_chars": 184
+      },
+      {
+        "query": "How are database migrations managed safely?",
+        "status": 200,
+        "client_ms": 52495.8,
+        "server_ms": 51783,
+        "n_sources": 5,
+        "answer_chars": 590
+      }
+    ],
+    "client_ms": {
+      "mean": 36261.1,
+      "median": 34874.6,
+      "min": 26439.8,
+      "max": 52495.8
+    },
+    "server_ms": {
+      "mean": 35799.9,
+      "median": 34456.5,
+      "min": 26021,
+      "max": 51935
+    },
+    "ok": 10
+  },
+  "concurrent": {
+    "wall_ms": 422406.0,
+    "requests": [
+      {
+        "query": "What is the company's data retention policy?",
+        "status": 200,
+        "client_ms": 320900.6,
+        "server_ms": 292457,
+        "n_sources": 5,
+        "answer_chars": 654
+      },
+      {
+        "query": "How much paid vacation do employees get?",
+        "status": 200,
+        "client_ms": 72085.8,
+        "server_ms": 70922,
+        "n_sources": 5,
+        "answer_chars": 87
+      },
+      {
+        "query": "What is the code review process for engineers?",
+        "status": 200,
+        "client_ms": 165347.5,
+        "server_ms": 135867,
+        "n_sources": 5,
+        "answer_chars": 415
+      },
+      {
+        "query": "How are production incidents handled on call?",
+        "status": 200,
+        "client_ms": 228265.6,
+        "server_ms": 225637,
+        "n_sources": 5,
+        "answer_chars": 335
+      },
+      {
+        "query": "How often are API keys and secrets rotated?",
+        "status": 500,
+        "client_ms": 422039.6,
+        "server_ms": null,
+        "n_sources": 0,
+        "answer_chars": 0
+      },
+      {
+        "query": "What health insurance and benefits are offered?",
+        "status": 500,
+        "client_ms": 422030.1,
+        "server_ms": null,
+        "n_sources": 0,
+        "answer_chars": 0
+      },
+      {
+        "query": "How do I submit an expense reimbursement?",
+        "status": 200,
+        "client_ms": 422390.6,
+        "server_ms": 391886,
+        "n_sources": 5,
+        "answer_chars": 97
+      },
+      {
+        "query": "What is the git branching and release process?",
+        "status": 200,
+        "client_ms": 132202.8,
+        "server_ms": 100925,
+        "n_sources": 5,
+        "answer_chars": 203
+      },
+      {
+        "query": "What are the rules against harassment at work?",
+        "status": 200,
+        "client_ms": 134331.4,
+        "server_ms": 117069,
+        "n_sources": 5,
+        "answer_chars": 136
+      },
+      {
+        "query": "How are database migrations managed safely?",
+        "status": 200,
+        "client_ms": 362447.7,
+        "server_ms": 333476,
+        "n_sources": 5,
+        "answer_chars": 794
+      }
+    ],
+    "client_ms": {
+      "mean": 268204.2,
+      "median": 274583.1,
+      "min": 72085.8,
+      "max": 422390.6
+    },
+    "server_ms": {
+      "mean": 208529.9,
+      "median": 180752.0,
+      "min": 70922,
+      "max": 391886
+    },
+    "ok": 8
+  }
+}

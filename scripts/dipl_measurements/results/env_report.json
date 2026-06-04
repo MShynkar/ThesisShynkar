@@ -1,0 +1,44 @@
+{
+  "pg_version": "PostgreSQL 16.14 (fce0ac2) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
+  "pgvector_version": "0.8.0",
+  "documents_total": 37,
+  "documents_ready": 37,
+  "chunks_total": 298,
+  "chunks_with_embedding": 298,
+  "documents_by_level": {
+    "confidential": 8,
+    "internal": 12,
+    "public": 12,
+    "restricted": 5
+  },
+  "avg_words_per_doc": "854",
+  "size_ix_chunks_embedding_hnsw": "8040 kB",
+  "size_ix_chunks_content_tsv": "200 kB",
+  "size_chunks_table": "10 MB",
+  "ollama_models": [
+    {
+      "name": "llama3.2:3b",
+      "size_mb": 2019.4,
+      "param_size": "3.2B",
+      "quant": "Q4_K_M"
+    },
+    {
+      "name": "nomic-embed-text:latest",
+      "size_mb": 274.3,
+      "param_size": "137M",
+      "quant": "F16"
+    }
+  ],
+  "config": {
+    "embedding_model": "nomic-embed-text",
+    "llm_model": "llama3.2:3b",
+    "embedding_dim": 768,
+    "chunk_size": 800,
+    "chunk_overlap": 100,
+    "top_k": 5,
+    "threshold": 0.3,
+    "hybrid_vector_weight": 0.7,
+    "hybrid_text_weight": 0.3,
+    "db_host": "ep-bold-violet-abh3pttx.eu-west-2.aws.neon.tech"
+  }
+}
